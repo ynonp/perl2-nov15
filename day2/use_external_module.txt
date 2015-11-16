@@ -1,0 +1,11 @@
+Install Module: Path::Tiny
+
+0. setenv PERL5LIB /shared/modules/folder
+
+1. Download module as .tar.gz file
+
+2. Extract with tar xvfz file.tar.gz
+
+3. cp lib/* /shared/modules/folder
+
+
