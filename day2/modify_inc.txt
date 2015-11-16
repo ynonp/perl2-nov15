@@ -1,0 +1,14 @@
+How to change @INC
+
+1. Working about my stuff (team stuff)
+  - shared modules folder
+  - use environment variable
+  
+  .cshrc
+  setenv PERL5LIB /my/shared/folder
+
+2. Deploy to 3rd party
+  - script + modules
+  - use lib relative to script location
+  - add to @INC 
+

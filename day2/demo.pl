@@ -1,12 +1,13 @@
 use strict;
 use warnings;
-use v5.18;
-use List::Util qw/sum/;
-use Data::Dumper;
 
-my @l = (10, 2, 3);
-my $sum = sum(@l);
+use Term::ANSIColor;
 
+my @colors = qw/red blue yellow magenta cyan/;
 
-print Dumper(\@l);
+foreach my $clr (@colors) {
+  print color $clr;
+  print "Cool im $clr\n";
+  print color 'reset';
+}
 
